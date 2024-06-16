@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    border: 1rem solid;
+    height: 100%;
+    margin-right: 75%;
+    text-align: center;
+}
+
+
+.div-header {
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.article-1 {
+    border: solid;
+    margin-left: 30%;
+    margin-right: 35%;
+    
+}
