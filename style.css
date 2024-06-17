@@ -1,16 +1,14 @@
-* {
-    box-sizing: border-box;
-}
-
-
-.header {
-    border: 1rem solid;
-    position: absolute;
-    height: 100%;
-    margin-right: 75%;
-    text-align: center;
+.sidebar {
+     height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: lightslategray;
+    border: 1rem solid;
+    padding: 10px;
 }
+
 
 h1 {
     font-weight: bold;
@@ -31,14 +29,15 @@ img {
 }
 
 
-.div-header {
-    padding-top: 50%;
-    padding-bottom: 50%;
-}
+.header {}
 
 
 .article-1 {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
     border: solid;
+    width: 560px;
     margin-left: 15%;
     margin-right: 45%;
     margin-bottom: 16px;
